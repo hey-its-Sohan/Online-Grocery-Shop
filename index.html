@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature's Platter</title>
+
+  <!-- Google font CDN-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+  <!-- Daisy UI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind script -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font awesome script -->
+  <script src="https://kit.fontawesome.com/d482bcbe4e.js" crossorigin="anonymous"></script>
+
+  <style>
+    .sora-font {
+  font-family: "Sora", serif;
+  }
+  </style>
+  
+</head>
+<body class="sora-font">
+  <header class="max-w-screen-xl mx-auto lg:px-16 bg-gradient-to-b from-stone-50 to-orange-50">
+    <div class="border-2 mx-0 border-green-600 md:border-0">
+      <nav class="flex justify-between items-center p-5 md:p-10">
+        <img src="./assets/logo-header.png" alt="">
+        <div class="hidden md:contents">
+          <ul class="flex gap-10 text-black text-xl">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="space-x-3">
+          <div class="hidden md:block space-x-3">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button class="btn btn-outline btn-success text-xl">Login</button>
+            <button class="btn bg-green-600 text-white text-xl">Register</button>
+          </div>
+          <i class="fa-solid fa-bars md:hidden text-green-600 text-3xl"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+</body>
+</html>
